@@ -81,7 +81,8 @@ h2{font-size:25px}h3{font-size:20px}h4{font-size:16px}em{font-style:normal;color
 }
 .landing-mode .main-nav{display:none!important}
 .landing-mode .site-footer{padding-bottom:32px}
-.landing-mode .site-header{min-height:88px}
+.landing-mode .site-header{min-height:88px;justify-content:flex-start}
+.landing-mode .header-compose{display:none!important}
 .site-header,.button,.text-button,.module-card-v2,.moment-link,.home-portal,.module-view-v2,.home-quicklinks a,.main-nav a{transition:background-color var(--t-hover) ease,color var(--t-hover) ease,border-color var(--t-hover) ease,transform var(--t-hover) var(--ease-out),box-shadow var(--t-hover) var(--ease-out)}
 .button:active,.module-view-v2:active,.home-portal:active,.home-quicklinks a:active,.main-nav a:active{transform:scale(.975)}
 .module-return{display:inline-flex;align-items:center;gap:8px;margin:20px 0 0;min-height:40px;font-size:14px;color:var(--muted)}
@@ -132,7 +133,7 @@ h2{font-size:25px}h3{font-size:20px}h4{font-size:16px}em{font-style:normal;color
 .moment-link small{font-size:13px;color:var(--muted)}
 .moment-link:hover{transform:translateY(-4px);box-shadow:0 18px 34px #20372218}
 .moment-link:hover img{transform:scale(1.03)}
-.home-close{display:flex;justify-content:space-between;align-items:end;gap:30px;margin:72px 0 10px;padding:38px 0 24px;background:var(--bg)}
+.home-close{display:flex;justify-content:center;align-items:center;gap:30px;margin:72px 0 10px;padding:52px 0 38px;text-align:center;background:var(--bg)}
 .home-close p{max-width:20em;margin:0;font-family:var(--serif);font-size:clamp(25px,3vw,38px);line-height:1.5}
 
 .modules-head{display:flex;justify-content:space-between;align-items:flex-end;gap:30px;padding:54px 0 36px}
@@ -182,7 +183,7 @@ h2{font-size:25px}h3{font-size:20px}h4{font-size:16px}em{font-style:normal;color
  .home-principles article{border:0}
  .moments-grid{grid-template-columns:1fr 1fr}
  .moment-link:last-child{grid-column:1/-1;grid-template-columns:1fr 1fr;grid-template-rows:220px}
- .home-close{align-items:flex-start;flex-direction:column}
+ .home-close{align-items:center;flex-direction:column}
  .modules-head{align-items:flex-start;flex-direction:column;padding-top:38px}
  .modules-head h1{font-size:56px}
  .module-grid-v2{grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}

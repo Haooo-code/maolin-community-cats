@@ -46,7 +46,6 @@ function renderHome(){
     <span class="portal-copy"><strong>进入猫邻关爱与协作中心</strong><span class="portal-meta">猫咪档案 · 社区交流 · 照护助手 · 救助协作 · 个人记录</span></span>
     <span class="portal-action"><span>5 个功能模块</span><span class="portal-icon">${icon('arrow',22)}</span></span>
    </a>
-   <div class="home-quicklinks"><a href="#cats">先看看猫 ${icon('arrow',16)}</a><a href="#community">读一条邻里动态 ${icon('arrow',16)}</a></div>
   </div>
   <figure class="home-portrait" aria-label="社区猫咪示例影像">
    <img class="hero-slide hero-slide-a" src="./assets/cat-tabby.jpg" alt="一只狸花猫坐在社区石阶上" fetchpriority="high">
@@ -60,15 +59,7 @@ function renderHome(){
   <article><span>${icon('clock',22)}</span><strong>照护可以交接</strong><p>喂养、巡查和救助不只留在个人记忆里，而能留下清楚记录。</p></article>
   <article><span>${icon('rescue',22)}</span><strong>行动有边界</strong><p>公开位置保持模糊，照片匹配由人确认，不替代专业健康判断。</p></article>
  </section>
- <section class="home-moments" aria-labelledby="moments-title" data-reveal>
-  <header><h2 id="moments-title" class="display">从一次遇见开始</h2><p>认一只猫，留一条近况，或者把一次求助交给合适的邻居。</p></header>
-  <div class="moments-grid">
-   <a href="#cats"><img src="./assets/cat-orange.jpg" alt="社区猫咪档案示例照片" loading="lazy"><span><strong>认识社区里的猫</strong><small>查看档案与近况</small></span></a>
-   <a href="#community"><img src="./assets/cat-basket.jpg" alt="社区猫咪动态示例照片" loading="lazy"><span><strong>分享一次遇见</strong><small>发布照片与留言</small></span></a>
-   <a href="#opportunities"><img src="./assets/cat-green.jpg" alt="社区照护接力示例照片" loading="lazy"><span><strong>接住一次求助</strong><small>联系志愿者与团队</small></span></a>
-  </div>
- </section>
- <section class="home-close" data-reveal><p>先认识一只猫<br>再完成一件小事</p><a class="button" href="#modules">打开五个功能入口 ${icon('arrow',18)}</a></section>`;
+ <section class="home-close" data-reveal><p>先认识一只猫<br>再完成一件小事</p></section>`;
  mountEntrances();
 }
 function renderModules(){
