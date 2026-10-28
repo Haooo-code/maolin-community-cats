@@ -78,7 +78,7 @@ function renderModules(){
  </section>
  <section class="module-grid-v2" aria-label="五个功能模块">
   ${modules.map((item,index)=>`<article class="module-card-v2" data-reveal style="--i:${index}">
-   <a class="module-cover-v2" href="#${item.route}" aria-label="进入${item.title}"><img src="${item.image}" alt="${item.title}模块封面" loading="lazy"></a>
+   <a class="module-cover-v2" href="#${item.route}" aria-label="进入${item.title}"><img src="${item.image}" alt="${item.title}模块封面"></a>
    <div class="module-body-v2"><h2>${item.title}</h2><p>${item.description}</p><div class="module-tags-v2">${item.tags.map(tag=>`<span>${tag}</span>`).join('')}</div><a class="module-view-v2" href="#${item.route}">查看 ${icon('arrow',16)}</a></div>
   </article>`).join('')}
  </section>
