@@ -1,6 +1,6 @@
 export const cats = [
- {id:'xiaohua',name:'小花',color:'狸白',photo:'./assets/tabby.png',description:'白围脖、白手套，额头有清楚的狸花纹。邻居们暂时叫它小花。',character:'喜欢安静地坐着',area:'社区花园一带',sex:'暂未确认',age:'暂未确认',neutered:'尚无核实记录'},
- {id:'xiaohei',name:'小黑',color:'黑白',photo:'./assets/tuxedo.png',description:'黑色背毛、白胸口和白爪子，鼻梁上有一小块白色。',character:'安静观察来往的人',area:'社区绿地一带',sex:'暂未确认',age:'暂未确认',neutered:'尚无核实记录'}
+ {id:'xiaohua',name:'小花',color:'狸白',photo:'./assets/tabby.webp',description:'白围脖、白手套，额头有清楚的狸花纹。邻居们暂时叫它小花。',character:'喜欢安静地坐着',area:'社区花园一带',sex:'暂未确认',age:'暂未确认',neutered:'尚无核实记录'},
+ {id:'xiaohei',name:'小黑',color:'黑白',photo:'./assets/tuxedo.webp',description:'黑色背毛、白胸口和白爪子，鼻梁上有一小块白色。',character:'安静观察来往的人',area:'社区绿地一带',sex:'暂未确认',age:'暂未确认',neutered:'尚无核实记录'}
 ];
 export function initialState(){
  const now=Date.now();
@@ -9,9 +9,9 @@ export function initialState(){
   {id:'seed-r2',catId:'xiaohua',type:'feeding',detail:'清洗容器并更换清水。',amount:'补水',time:now-20*3600000,actor:'示例邻居',mine:false},
   {id:'seed-r3',catId:'xiaohei',type:'feeding',detail:'留下了一次日常照护记录，现场已清理。',amount:'少量干粮',time:now-5*3600000,actor:'示例邻居',mine:false}
  ],posts:[
-  {id:'seed-p1',author:'示例邻居',avatar:'#d8dfbb',text:'小花又在熟悉的地方晒太阳。路过的时候，拍下了今天的小小相遇。',image:'./assets/tabby.png',catId:'xiaohua',type:'daily',time:now-40*60000,likes:12,liked:false,mine:false,comments:[{id:'seed-c1',author:'示例照护者',text:'谢谢分享近况，看到它很开心。',time:now-20*60000}]},
-  {id:'seed-p2',author:'示例照护者',avatar:'#efd8bd',text:'给小黑补了清水，也把周围收拾干净了。照护猫咪，也照顾大家共同的环境。',image:'./assets/tuxedo.png',catId:'xiaohei',type:'feeding',time:now-4*3600000,likes:8,liked:false,mine:false,comments:[]},
-  {id:'seed-p3',author:'示例邻居',avatar:'#d6dfdf',text:'今天遇见了小黑，安安静静地看了一会儿。分享一次遇见，给同样牵挂它的邻居。',image:'./assets/tuxedo.png',catId:'xiaohei',type:'daily',time:now-26*3600000,likes:6,liked:false,mine:false,comments:[]}
+  {id:'seed-p1',author:'示例邻居',avatar:'#d8dfbb',text:'小花又在熟悉的地方晒太阳。路过的时候，拍下了今天的小小相遇。',image:'./assets/tabby.webp',catId:'xiaohua',type:'daily',time:now-40*60000,likes:12,liked:false,mine:false,comments:[{id:'seed-c1',author:'示例照护者',text:'谢谢分享近况，看到它很开心。',time:now-20*60000}]},
+  {id:'seed-p2',author:'示例照护者',avatar:'#efd8bd',text:'给小黑补了清水，也把周围收拾干净了。照护猫咪，也照顾大家共同的环境。',image:'./assets/tuxedo.webp',catId:'xiaohei',type:'feeding',time:now-4*3600000,likes:8,liked:false,mine:false,comments:[]},
+  {id:'seed-p3',author:'示例邻居',avatar:'#d6dfdf',text:'今天遇见了小黑，安安静静地看了一会儿。分享一次遇见，给同样牵挂它的邻居。',image:'./assets/tuxedo.webp',catId:'xiaohei',type:'daily',time:now-26*3600000,likes:6,liked:false,mine:false,comments:[]}
  ]};
 }
 export const storageKey='maolin-showcase-20261028-v1';
